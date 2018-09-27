@@ -9,7 +9,7 @@ include(cmake/pods.cmake)
 include(cmake/lcmtypes.cmake)
 lcmtypes_build(C_AGGREGATE_HEADER rrtstar_lcmtypes.h)
 
-pods_install_pkg_config_file(lcmtypes_${POD_NAME}
+pods_install_pkg_config_file(lcmtypes_rrtstar
     LIBS -l${LCMTYPES_LIBS}
     REQUIRES lcm
     VERSION 0.0.1)
