@@ -1,0 +1,12 @@
+package ripl;
+
+struct goal_list_t
+{
+    int64_t utime;
+
+    int64_t sender_id; // used so senders can tell who is sending what....
+
+    int32_t num_goals;
+    goal_t  goals[num_goals];
+
+}
