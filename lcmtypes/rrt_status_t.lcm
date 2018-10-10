@@ -1,6 +1,6 @@
-package ripl;
+package rrt;
 
-struct rrt_status_t {
+struct status_t {
 
        int32_t iteration_no;      // number of iterations, i.e., samples, up until now
        int32_t num_nodes;         // number of nodes in the tree

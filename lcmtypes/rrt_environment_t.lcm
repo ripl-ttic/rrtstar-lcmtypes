@@ -1,0 +1,11 @@
+package rrt;
+
+struct environment_t {
+
+       environment_region_2d_t operating;
+       environment_region_2d_t goal;
+
+       int32_t num_obstacles;
+       environment_region_2d_t obstacles[num_obstacles];
+
+}

@@ -1,4 +1,4 @@
-package ripl;
+package rrt;
 
 struct ref_point_t
 {

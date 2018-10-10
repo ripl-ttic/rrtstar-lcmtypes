@@ -1,6 +1,6 @@
-package ripl;
+package rrt;
 
-struct rrt_environment_region_2d_t {
+struct environment_region_2d_t {
        
        double center[2];
        double size[2];

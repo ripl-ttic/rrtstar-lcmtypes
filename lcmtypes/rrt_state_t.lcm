@@ -1,6 +1,6 @@
-package ripl;
+package rrt;
 
-struct rrt_state_t {
+struct state_t {
        double x;     // X corrditate in the cartesian coordinate frame
        double y;     // Y corrditate in the cartesian coordinate frame
        double t;     // orientation

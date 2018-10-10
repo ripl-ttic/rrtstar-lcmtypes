@@ -1,6 +1,6 @@
-package ripl;
+package rrt;
 
-struct rrt_goal_status_t {
+struct goal_status_t {
        int64_t utime; 
        int32_t id;
        int8_t status; 

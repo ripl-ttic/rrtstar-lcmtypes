@@ -1,4 +1,4 @@
-package ripl;
+package rrt;
 
 struct goal_list_t
 {

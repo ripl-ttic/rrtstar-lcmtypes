@@ -1,0 +1,13 @@
+package rrt;
+
+struct tree_t {
+
+       int32_t num_nodes;
+       node_t nodes[num_nodes];
+
+       traj_t traj_from_parent[num_nodes]; 
+
+       int32_t num_edges;
+       int32_t edges[num_edges][2];
+
+}
